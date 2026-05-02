@@ -1,0 +1,65 @@
+header{
+    border-bottom: 1px solid #ffffff;
+}
+
+.personal-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 3em 1em;
+}
+
+.personal-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.personal-div h1{
+    font-size: 1.75rem;
+    color: #151515;
+}
+
+.personal-div p{
+    font-size: 1rem;
+}
+
+.personal-div img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.hero-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 0 1em;
+}
+
+.hero-content p {
+    font-size: 1rem;
+}
+
+.hero-content h2 {
+    font-size: 1rem;
+}
+.hero-content p, .hero-content h2 {
+    margin-bottom: 0.25em;
+    /* font-size: 0.75rem; */
+} 
+
+@media (min-width: 600px) {
+    .hero-content-text{
+        margin: 0 3em;
+    }
+
+    .personal-div{
+        display: flex;
+        flex-direction: row;
+        /* gap: 20px; */
+        align-items: center;
+        margin: 2em 1em;
+    }
+}
+
